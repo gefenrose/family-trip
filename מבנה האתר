@@ -1,0 +1,7 @@
+/family-trip-site
+│
+├── index.html        (דף הבית)
+├── trip-details.html (פרטי הנופש)
+├── day1.html         (יום שלישי 10/2)
+├── day2.html         (יום רביעי 11/2)
+└── style.css         (עיצוב משותף)

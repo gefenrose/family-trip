@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  color: #333;
+  direction: rtl;
+}
+
+header {
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #e8f5e9;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e8f5e9;
+  font-size: 0.9em;
+}
+/* התאמה למובייל */
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 1.6em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 10px;
+    background: #c8e6c9;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+}
+.map {
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
