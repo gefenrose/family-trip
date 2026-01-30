@@ -7,9 +7,13 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #4caf50, #2e7d32);
-  color: white;
-  padding: 30px;
+  background-image: 
+    linear-gradient(rgba(250,250,250,0.85), rgba(250,250,250,0.85)),
+    url("https://images.unsplash.com/photo-1490750967868-88aa4486c946");
+  background-size: cover;
+  background-position: center;
+  color: #2f4f44;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -85,6 +89,18 @@ footer {
   margin-top: 20px;
   border-radius: 12px;
   overflow: hidden;
+}
+.subtitle {
+  font-size: 1.1em;
+  margin-top: 10px;
+  color: #5f8f7a;
+}
+
+.community-text {
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #7a4f5c;
 }
 
 .map iframe {
